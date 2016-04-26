@@ -46,6 +46,8 @@
 \newcommand{\address}{}
 \newcommand{\information}{}
 \newcommand{\contactnumber}{}
+\newcommand{\registrar}{}
+\newcommand{\signer}{}
 
 \newcommand{\studentname}{}
 \newcommand{\studentsurname}{}
@@ -210,8 +212,8 @@
     Notes - Remarks:
     \bfseries
     \begin{center}
-        FOR THE REGISTRAR: REGISTRAR'S NAME \\[20pt]
-        (Signature) \--- SIGNER'S NAME \\[20pt]
+        FOR THE REGISTRAR: {\registrar} \\[20pt]
+        (Signature) \--- {\signer} \\[20pt]
         (University's official seal)
     \end{center}
     \mdseries
