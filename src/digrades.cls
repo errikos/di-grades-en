@@ -214,8 +214,8 @@
     Notes - Remarks:
     \bfseries
     \begin{center}
-        FOR THE REGISTRAR: GRAMMATIKI LOUPA \\[20pt]
-        (Signature) \--- VASILIKI POTHITOU \\[20pt]
+        FOR THE REGISTRAR: REGISTRAR'S NAME \\[20pt]
+        (Signature) \--- SIGNER'S NAME \\[20pt]
         (University's official seal)
     \end{center}
     \mdseries
