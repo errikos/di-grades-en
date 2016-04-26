@@ -29,7 +29,6 @@
 %% Define headers and footers for first and subsequent pages
 %% =============================================================================
 \pagestyle{fancy}
-%\setlength{\headheight}{0pt}
 \chead{\restpagesheader}
 \cfoot{\restpagesfooter}
 \renewcommand{\headrulewidth}{0pt}
@@ -68,9 +67,6 @@
 %% First page header
 %% =============================================================================
 \newcommand{\certheader}{
-%    \newgeometry{top=0.5cm, bottom=3.5cm, left=1cm, right=1cm,
-%                bindingoffset=0cm, headsep=0cm,
-%                headheight=50pt, footskip=34pt}
     \thispagestyle{plain}
     \center{\fontsize{12}{12}\selectfont\textbf{HELLENIC REPUBLIC}}
     \begin{center}
