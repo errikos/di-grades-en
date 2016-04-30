@@ -122,9 +122,9 @@
     \begin{tabularx}{\textwidth}{ l l X }
         \underline{Note:} & Successful examination: & Grade greater than or equal to 5 (five) \\
         ~ & Non-successful examination: & Grade less than 5 (five) \\
-        ~ & Good & Grade Point Average greater than or equal to 5,0 and less than 6,50. \\
-        ~ & Very Good & Grade Point Average greater than or equal to 6,50 and less than 8,50. \\
-        ~ & Excellent & Grade Point Average greater than or equal to 8,5.
+        ~ & Good: & Grade Point Average greater than or equal to 5,0 and less than 6,50. \\
+        ~ & Very Good: & Grade Point Average greater than or equal to 6,50 and less than 8,50. \\
+        ~ & Excellent: & Grade Point Average greater than or equal to 8,5.
     \end{tabularx}
     \\\vspace{0.5cm}
     \--- \hspace{0.05cm} \thepage \hspace{0.05cm} \---}
