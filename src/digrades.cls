@@ -169,9 +169,9 @@
 
     The aforementioned student retains their student status during the current academic year {\thisyear}.
 
-    In order to obtain the degree award, an obligatory attendance of 8 semesters is required. \\[8pt]
+    In order to obtain the Ptychion, an obligatory attendance of 8 semesters is required. \\[8pt]
 
-    The detailed trancript of records is presented in the following pages and the grading scale is indicated in the footnotes.
+    The detailed transcript of records is presented in the following pages and the grading scale is indicated in the footnotes.
 
     This certificate is granted for any legal use.
 
