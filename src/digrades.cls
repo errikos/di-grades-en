@@ -3,7 +3,7 @@
 %%
 %% =============================================================================
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{digrades}[2016/04/24 v0.1 DIT.UoA Academic Transcript in English]
+\ProvidesClass{digrades}[2016/09/25 v0.2 DIT.UoA Academic Transcript in English]
 
 \LoadClass[a4paper,oneside,11pt]{article}[2014/09/29]
 
@@ -62,6 +62,11 @@
 
 \newcommand{\studentregistrationyear}{}
 \newcommand{\thisyear}{}
+\newcommand{\graduationdate}{}
+\newcommand{\pledgedate}{}
+\newcommand{\degreeid}{}
+\newcommand{\gpa}{}
+\newcommand{\gpainfull}{}
 \newcommand{\enrolledvia}{Nationwide Examinations}
 \newcommand{\currentsemester}{}
 %% =============================================================================
@@ -142,7 +147,13 @@
         Contact Phone Number: {\contactnumber} & Electronic Reference Number: {\refnumber} \\
     \end{tabularx}}
     \rule{\textwidth}{0.5pt}
-    {\fontsize{12pt}{12pt}\selectfont Certificate of Academic Transcript (1)}
+    {\fontsize{12pt}{12pt}\selectfont
+    \ifgraduated
+      Graduate's Certificate of Academic Transcript
+    \else
+      Certificate of Academic Transcript (1)
+    \fi
+    }
 }
 %% =============================================================================
 
@@ -167,11 +178,25 @@
     \vspace{0.4cm}
     was first enrolled in the 1st semester of studies of our Department in the academic year {\studentregistrationyear}. \\[6pt]
 
-    The aforementioned student retains their student status during the current academic year {\thisyear}.
+    \ifgraduated
+      The aforementioned student during his undergraduate studies in the Department, has been taught all the listed courses below, with their
+      respective credits and has received the equivalent grades. \\[6pt]
+    \else
+      The aforementioned student retains their student status during the current academic year {\thisyear}. \\[6pt]
+    \fi
 
     In order to obtain the Ptychion, an obligatory attendance of 8 semesters is required. \\[8pt]
 
+    \ifgraduated
+      The aforementioned student has been declared a graduate as of {\graduationdate}, took their pledge on {\pledgedate} and received their
+      Ptychion with No. {\degreeid} and grade {\gpa}, ({\gpainfull}).
+    \fi
+
     The detailed transcript of records is presented in the following pages and the grading scale is indicated in the footnotes.
+
+    \ifgraduated
+      In the last column, the indication Y (Yes), N (No) demonstrates if the course grade is used GPA calculation.
+    \fi
 
     This certificate is granted for any legal use.
 
@@ -189,9 +214,19 @@
 }
 }
 
-\newenvironment{acadyear}[1][]{%
 
-    \bfseries \hspace{6mm} \underline{Academic Year {#1}} \mdseries
+%% gradesgrouping expects one argument:
+%% if graduated is set, then argument is No of semester, e.g. 1st, 2nd, 3rd, ..
+%% otherwise, the argument is the academic year, e.g. 1970-1971
+\newenvironment{gradesgrouping}[1][]{%
+
+    \bfseries \hspace{6mm}
+    \ifgraduated
+      \underline{{#1} Semester}
+    \else
+      \underline{Academic Year {#1}}
+    \fi
+    \mdseries
     \setlength\extrarowheight{5pt}
     \tabularx{\textwidth}{ m{1.5cm} m{6cm} m{2cm} m{1.3cm} m{2.5cm} m{1.7cm} X }
 }{%

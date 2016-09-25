@@ -3,6 +3,14 @@
 %% Στα σχόλια του κάθε πεδίου σημειώνεται σε παρενθέσεις η default τιμή του.
 %%
 
+%%
+%% Graduated flag - ελέγχει αν το κείμενο που θα εκτυπωθεί σε διάφορα σημεία
+%% του εγγράφου, αφορά πτυχιούχο ή όχι.
+\newif\ifgraduated
+%% Αν έχετε αποφοιτήσει, αφαιρέστε το σχόλιο από την παρακάτω γραμμή.
+% \graduatedtrue
+%%
+
 % Ημερομονία έκδοσης - (κενό)
 \renewcommand{\dateofissue}{01/01/1970}
 % Αριθμός ηλεκτρονικού πρωτοκόλλου - (default: 00000)
@@ -47,6 +55,20 @@
 % \renewcommand{\enrolledvia}{Nationwide Examinations}
 % Τρέχον εξάμηνο φοίτησης - (default: κενό)
 \renewcommand{\currentsemester}{1}
+
+%%
+%% Πεδία σχετικά με την περίπτωση πτυχιούχου.
+% Ημερομηνία ανακήρυξης πτυχιούχου - (default: κενό)
+\renewcommand{\graduationdate}{01/01/1970}
+% Ημερομηνία ορκωμοσίας - (default: κενό)
+\renewcommand{\pledgedate}{01/01/1970}
+% Αριθμός πτυχίου - (default: κενό)
+\renewcommand{\degreeid}{XXXX}
+% Βαθμός πτυχίου με ακρίβεια δύο δεκαδικών ψηφίων - (default: κενό)
+\renewcommand{\gpa}{X.ΥΖ}
+% Βαθμός πτυχίου ολογράφως και με ΚΕΦΑΛΑΙΑ - (default: κενό)
+\renewcommand{\gpainfull}{GPA WRITTEN IN FULL}
+%%
 
 %% Μόνο για άρρενες (προσέξτε το directive \newcommand αντί για \renewcommand)
 % Μητρώο αρρένων - (default: κενό)
