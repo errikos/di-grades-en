@@ -172,7 +172,8 @@
         }{}
         Municipality & {\studentmunicipality} & Municipality Registration Number & {\studentmunicipalitynumber} \\
         Registration Number & \textbf{\studentid} & Date of Registration & {\studentregistrationdate} \\
-        Enrolled via & {\enrolledvia} & Semester of Studies & {\currentsemester}
+        Enrolled via & {\enrolledvia} &
+          \ifgraduated \else Semester of Studies & {\currentsemester} \fi
     \end{tabularx}
     \end{center}
     \vspace{0.4cm}
