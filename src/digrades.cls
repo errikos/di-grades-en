@@ -180,8 +180,8 @@
     was first enrolled in the 1st semester of studies of our Department in the academic year {\studentregistrationyear}. \\[6pt]
 
     \ifgraduated
-      The aforementioned student during his undergraduate studies in the Department, has been taught all the listed courses below, with their
-      respective credits and has received the equivalent grades. \\[6pt]
+      The aforementioned student during his undergraduate studies in the Department, has been taught all the courses listed below, with their
+      respective credits and has received the corresponding grades. \\[6pt]
     \else
       The aforementioned student retains their student status during the current academic year {\thisyear}. \\[6pt]
     \fi
@@ -196,7 +196,7 @@
     The detailed transcript of records is presented in the following pages and the grading scale is indicated in the footnotes.
 
     \ifgraduated
-      In the last column, the indication Y (Yes), N (No) demonstrates if the course grade is used GPA calculation.
+      In the last column, the indication Y (Yes), N (No) indicates whether the course grade is used GPA calculation.
     \fi
 
     This certificate is granted for any legal use.
