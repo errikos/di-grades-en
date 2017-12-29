@@ -95,7 +95,8 @@
 \newcommand{\firstpagefooter}{
     \fontsize{10}{11}\selectfont{
     \begin{tabularx}{\textwidth}{ l X }
-        \underline{Note:} &
+        \underline{Notes:} &
+        The ``Department of Informatics'' was renamed to "Department of Informatics and Telecommunications" in accordance with P.O. 232/13.9.2000.
         Student status is obtained upon registration and is dropped upon degree award, graduation or due to punishment or expulsion. An academic year spans two semesters and starts on 1st September of a calendar year and ends on 31st August of the next calendar year.
     \end{tabularx}
     \\\vspace{0.5cm}
