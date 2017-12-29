@@ -186,17 +186,17 @@
       The aforementioned student retains their student status during the current academic year {\thisyear}. \\[6pt]
     \fi
 
-    In order to obtain the Ptychion, an obligatory attendance of 8 semesters is required. \\[8pt]
+    In order to obtain the Degree Award (``Ptychion''), an obligatory attendance of 8 semesters is required. \\[8pt]
 
     \ifgraduated
       The aforementioned student has been declared a graduate as of {\graduationdate}, took their pledge on {\pledgedate} and received their
-      Ptychion with No. {\degreeid} and grade {\gpa}, ({\gpainfull}).
+      Degree Award (``Ptychion'') with No. {\degreeid} and grade {\gpa}, ({\gpainfull}).
     \fi
 
     The detailed transcript of records is presented in the following pages and the grading scale is indicated in the footnotes.
 
     \ifgraduated
-      In the last column, the indication Y (Yes), N (No) indicates whether the course grade is used GPA calculation.
+      In the last column, the indication Y (Yes), N (No) indicates whether the course grade is used in the GPA calculation.
     \fi
 
     This certificate is granted for any legal use.
