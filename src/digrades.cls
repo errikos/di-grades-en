@@ -97,7 +97,7 @@
     \begin{tabularx}{\textwidth}{ l X }
         \underline{Notes:} &
         The ``Department of Informatics'' was renamed to "Department of Informatics and Telecommunications" in accordance with P.O. 232/13.9.2000.
-        Student status is obtained upon registration and is dropped upon degree award, graduation or due to punishment or expulsion. An academic year spans two semesters and starts on 1st September of a calendar year and ends on 31st August of the next calendar year.
+        Student status is obtained upon registration and is dropped upon obtaining the Degree Award, graduation or due to punishment or expulsion. An academic year spans two semesters and starts on 1st September of a calendar year and ends on 31st August of the next calendar year.
     \end{tabularx}
     \\\vspace{0.5cm}
     \--- \hspace{0.05cm} \thepage \hspace{0.05cm} \---}
@@ -181,10 +181,10 @@
     was first enrolled in the 1st semester of studies of our Department in the academic year {\studentregistrationyear}. \\[6pt]
 
     \ifgraduated
-      The aforementioned student during his undergraduate studies in the Department, has been taught all the courses listed below, with their
+      During his undergraduate studies in the Department, the aforementioned student has been taught all the courses listed below, with their
       respective credits and has received the corresponding grades. \\[6pt]
     \else
-      The aforementioned student retains their student status during the current academic year {\thisyear}. \\[6pt]
+      The aforementioned student retains their student status during the current academic year, {\thisyear}. \\[6pt]
     \fi
 
     In order to obtain the Degree Award (``Ptychion''), an obligatory attendance of 8 semesters is required. \\[8pt]
