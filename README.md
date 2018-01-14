@@ -11,3 +11,6 @@ To be able to compile the template you need `xelatex`, as well as the packages u
 Special thanks to @ividim for fine tuning some details.
 For any suggestion or if you find a bug, please email me: e.dona[at]di. 
 
+## Contributions
+
+* [@chris-asl](https://github.com/chris-asl)
